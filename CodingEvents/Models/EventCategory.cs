@@ -1,4 +1,5 @@
-﻿namespace CodingEvents;
+﻿using System;
+namespace CodingEvents.Models;
 
 public class EventCategory
 {
@@ -10,7 +11,7 @@ public EventCategory()
 
 public EventCategory(string name)
 {
-    Name = Name;
+    Name = name;
 }
 }
 

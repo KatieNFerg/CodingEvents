@@ -74,6 +74,7 @@ namespace CodingEvents.Controllers
                 Event? theEvent = context.Events.Find(eventId);
                 context.Events.Remove(theEvent);
             }
+            context.SaveChanges();
 
             return Redirect("/Events");
         }
